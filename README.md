@@ -1,4 +1,4 @@
-#Kubernetes Learning Journal
+# Kubernetes Learning Journal
 
 An interactive learning journal documenting my journey into Kubernetes, containers, and Linux.
 
@@ -6,7 +6,7 @@ Welcome to my technical learning journal — a personal record of my practical e
 
 This repository captures my practical experience, challenges, and achievements as I explore concepts like containerization, orchestration, and command-line tools.
 
-#Mission
+## Mission
 
 This repository serves as a resource for anyone looking to understand Kubernetes and its ecosystem. It aims to provide:
 
@@ -16,7 +16,7 @@ Reflections on challenges and solutions encountered during the learning process
 
 Practical examples and use cases for Kubernetes in real-world scenarios
 
-#Tech Stack
+## Tech Stack
 
 Kubernetes: For container orchestration
 
@@ -30,7 +30,7 @@ kubectl Installation Guide
 
 This file documents how I installed and configured kubectl, the Kubernetes command-line tool, to interact with my Minikube cluster.
 
-##Prerequisites
+## Prerequisites
 
 Minikube already set up and running
 
@@ -40,21 +40,21 @@ User account with sudo privileges
 
 Installation Steps
 
-##Download the latest kubectl binary:
+## Download the latest kubectl binary:
 
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-# -L tells curl to follow redirects
-# -O saves the file with its original name
+-L tells curl to follow redirects
+-O saves the file with its original name
 
 Make the binary executable:
 
 chmod +x kubectl
-# Makes the binary executable
+Makes the binary executable
 
 Move it to your system path:
 
 sudo mv kubectl /usr/local/bin/
-# Moves kubectl into your system path so it’s accessible globally
+Moves kubectl into your system path so it’s accessible globally
 
 Verify installation:
 
@@ -74,7 +74,7 @@ To inspect cluster components:
 
 kubectl cluster-info
 
-##Reflections
+## Reflections
 
 kubectl acts as the bridge between me (the user) and the Kubernetes API server. It interprets my commands and interacts with the cluster accordingly.
 
@@ -86,7 +86,7 @@ chmod +x ensures the downloaded binary can be executed as a program.
 
 Moving it to /usr/local/bin/ places it in the system path, making it available from any terminal session.
 
-Troubleshooting
+## Troubleshooting
 
 If kubectl is not found after installation, ensure /usr/local/bin/ is in your system PATH.
 
