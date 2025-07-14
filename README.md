@@ -6,7 +6,11 @@ Welcome to my technical learning journal — a personal record of my practical e
 
 This repository captures my practical experience, challenges, and achievements as I explore concepts like containerization, orchestration, and command-line tools.
 
+<<<<<<< HEAD
 ## Mission
+=======
+# Mission
+>>>>>>> f0d1e61 (commit README with session split between local and remote versions)
 
 This repository serves as a resource for anyone looking to understand Kubernetes and its ecosystem. It aims to provide:
 
@@ -16,7 +20,11 @@ Reflections on challenges and solutions encountered during the learning process
 
 Practical examples and use cases for Kubernetes in real-world scenarios
 
+<<<<<<< HEAD
 ## Tech Stack
+=======
+# Tech Stack
+>>>>>>> f0d1e61 (commit README with session split between local and remote versions)
 
 Kubernetes: For container orchestration
 
@@ -44,7 +52,11 @@ Installation Steps
 
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 -L tells curl to follow redirects
+<<<<<<< HEAD
 -O saves the file with its original name
+=======
+ -O saves the file with its original name
+>>>>>>> f0d1e61 (commit README with session split between local and remote versions)
 
 Make the binary executable:
 
