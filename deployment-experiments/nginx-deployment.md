@@ -1,4 +1,4 @@
-markdown
+    markdown
 # NGINX Deployment Experiment
 
 This file documents how I deployed a basic NGINX web server to my Minikube cluster using a Kubernetes Deployment manifest.
@@ -80,6 +80,6 @@ If minikube service fails to launch in browser, inspect port binding and try:
 bash
 minikube service nginx-deployment --url
 
----
+
 
 
