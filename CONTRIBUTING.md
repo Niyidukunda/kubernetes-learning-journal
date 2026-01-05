@@ -9,7 +9,7 @@ There are several ways you can engage with this project:
 ### 1. Browse and Learn
 - Simply explore the repository to learn from the documentation, guides, and examples
 - No account or setup required - just read through the files on GitHub
-- All content is available under the GNU GPL v2 license
+- All content is available under the GNU General Public License v2.0
 
 ### 2. Fork the Repository (Recommended for Personal Changes)
 This is the best option if you want to make your own version or experiment with the content:
@@ -162,7 +162,7 @@ kubernetes-learning-journal/
 ├── linux-tricks/            # Linux commands and system administration tips
 ├── notes-and-reflections/   # Learning reflections and troubleshooting logs
 ├── setup-guide/             # Installation guides for tools
-├── LICENSE                  # GNU GPL v2 license
+├── LICENSE                  # GNU General Public License v2.0
 ├── README.md               # Project overview and main documentation
 └── CONTRIBUTING.md         # This file
 ```
